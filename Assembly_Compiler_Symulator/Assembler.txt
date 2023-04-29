@@ -1,0 +1,20 @@
+   loop   :    
+   inc    r2      
+     cmp    r2 ,   r5 
+ 
+   JL     loop   
+    Je     loop2   
+    jg     loop3    
+ loop2 : 
+    add      r2   ,   5  
+   jmP     loop    
+ loop3 : 
+   or   r4,  r2
+  or    r1,  4
+   aNd    r1   , 1
+
+  xoR  r1,   5   
+
+Not r3
+NOt r5
+    ret   
